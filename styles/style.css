@@ -1,0 +1,405 @@
+body {
+	background-color: white;
+}
+.makervideo {
+	padding: 25px
+}
+
+p {
+	color: white;
+}
+
+h3 {
+	color: white;
+}
+
+h4 {
+	color: white;
+}
+
+	
+h1 {
+	color: white;
+	padding: 25px;
+	width: 100%;
+	height: 50px;
+	position: relative; 
+	top: 0; 
+	text-align: left;
+	font-family: courier;
+	font-size: 38px;
+}
+
+h2 {
+	color: white;
+	position: absolute; 
+	top: 35px;  
+	width: 100%;
+	font-size:14pt;
+}
+
+h6 {
+	color: black;
+	font-family: courier;
+	font-size: 14pt;
+
+}
+
+
+.header {
+	color: #a1a3a1;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative; 
+	top: 0; 
+	left: 0;
+}
+
+a:link {
+	color: #a1a3a1;
+}
+
+a:visited {
+	color: #872501;
+}
+
+audio {
+	display: none;
+}
+
+.projspacer{
+	width:100%;
+	height:200px;
+}
+.homespacer{
+	width:100%;
+	height:150px;
+}
+
+/*Einstein Quote*/	
+.einsteinquote { 
+	position: relative; 
+	padding: 12px;
+	width: 993px;
+	height: 450px;
+	top: 10px;
+	left: 50px;
+}
+
+.einstein {
+	height: 400px;
+	filter: blur(2px);
+}
+
+h5 {
+	color: #004660;
+	position: absolute; 
+	top: 360px; 
+	left: 0; 
+	width: 100%;
+	font-size: 30px;
+}
+
+/*Earth GIF*/
+.image { 
+	position: relative;
+	width: 160px;
+	height: 160px;
+}
+
+/*UI*/
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position:relative;
+	z-index:2;
+}
+
+li img{
+	float: right;
+}
+
+li input{
+	display: block;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	font-family: courier;
+	float: left;
+}
+
+li.world{
+	display:block;
+	float:left;
+}
+
+.disable {
+	background-color: #f99a77;
+	color: white;
+    cursor: not-allowed;
+	border: 3px solid #872501;	
+}
+
+.button {
+	background-color: #a1a3a1;
+	color: black;
+	border: 3px solid #a1a3a1;
+}
+
+.button:focus{
+	outline: none;
+}
+
+.button:hover {
+	background-color: #872501;
+	border: 3px solid #872501;
+	color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    float: right;
+}
+
+.dropdown-content:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content input {
+	width: 91px;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	font-family: courier;
+	font-size: 12px;
+	white-space: normal;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown{
+
+	width: 91px;
+	height: 350px;
+	display:block;
+	float:left;
+	float: top;
+}
+
+
+/*PROJECTS*/
+
+/*Generalities*/
+.projcontainer{
+	height: 100%;
+	width: 100%;
+	top:170px;
+	position: absolute;
+}
+
+input.projects{
+	height: 257px;
+	width: 257px;
+	border-radius: 50%;
+	background: none;
+	font-family: courier;
+	color: white;
+	border: 5px solid white;
+	position: absolute;
+	font-size: 18pt;
+	left:0;
+	z-index: 3;
+}
+
+input.projects:focus{
+	outline: none;
+}
+
+input.projects:hover{
+	border: 5px solid black;
+}
+
+img.cover{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	position: absolute;
+	left:0;
+	filter: blur(2px);
+	border: 5px solid black;
+}
+
+.container{
+	background: none;
+	height: 275px;
+	width: 255px;
+	position: relative;	
+}
+
+/*Slides*/
+
+.slidecontainer{
+	position: relative;
+	height: 456px;
+	width: 456px;
+}
+
+.statementcontainer{
+	white-space: normal;
+	position: relative;
+	width: 425px;
+	float: bottom;
+}
+
+.captioncontainer{
+	white-space: normal;
+	position: relative;
+	width: 425px;
+	float: top;
+}
+
+.aligncontainer{
+	position: absolute;
+	height: 750px;
+	width: 100%;
+	top:170px;
+}
+
+.slides{
+	position:relative;
+	border: 3px solid #a1a3a1;
+}
+
+.short{
+	height:337.5px;
+	top:12.5%;
+}
+
+.tall{
+	height:450px;
+	top:0;
+}
+
+.left{
+	position: absolute;
+	height: 50px;
+	top: 45%;
+	left:0;
+	opacity:0.75;
+	font-size: 20px;
+}
+
+.right{
+	position: absolute;
+	height: 50px;
+	top: 45%;
+	right:0;
+	opacity:0.75;
+	font-size: 20px;
+}
+
+/*Blastoff*/
+.buttonblast:hover {
+	color:white;
+	background-color: #601B1D;
+	border: 3px solid #601B1D;
+}
+
+.shadowblast { 
+	position: absolute; 
+	top: 0px; 
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: 50px 50px 100px 0 black inset, -50px -50px 80px 0 black inset;
+}
+
+.buttonblast {
+	background-color: #a1a3a1;
+	color: black;
+	border: 3px solid #a1a3a1;
+	font-family: courier;
+	font-size: 15px;
+	outline: none;
+}
+
+.nameText {
+	background-color: #a1a3a1;
+	color: black;
+	border: 3px solid #a1a3a1;
+	font-family: courier;
+	outline: none;
+}
+
+.rsvpRadio:after {
+	width: 15px;
+    height: 15px;
+	border-radius: 15px;
+	top: -2px;
+	left: -1px;
+	position: relative;
+	background-color: #a1a3a1;
+	content: '';
+	display: inline-block;
+	visibility: visible;
+	border: 2px solid #a1a3a1;
+	font-family: courier;
+}
+
+.rsvpRadio:checked:after {
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	top: -2px;
+	left: -1px;
+	position: relative;
+	background-color: #601B1D;
+	content: '';
+	display: inline-block;
+	visibility: visible;
+	border: 2px solid #a1a3a1;
+	font-family: courier;
+}
+
+.rsvpLabel {
+	color: #a1a3a1;
+	font-family: courier;
+}
+
+p.googleCalendar
+{
+	color: #a1a3a1;
+	font-family: courier;
+}
+
+p {
+	color: #a1a3a1;
+	font-family: courier;
+}
+
+.columnL
+{
+	float:left;
+	width: 47%;
+	padding: 10px;
+}
+.columnR
+{
+	float:right;
+	width: 47%;
+	padding: 10px;
+}
+
+.row:after{
+	content:"";
+	display: table;
+	clear:both;
+}
