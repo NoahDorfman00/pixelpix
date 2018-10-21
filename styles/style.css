@@ -31,11 +31,10 @@ h1 {
 }
 
 h2 {
-	color: white;
-	position: absolute; 
-	top: 35px;  
-	width: 100%;
-	font-size:14pt;
+	color: #8b7493;
+	position: absolute;   
+	font-size: 16pt;
+	font-family: courier;
 }
 
 h6 {
@@ -104,8 +103,9 @@ h5 {
 /*Earth GIF*/
 .image { 
 	position: relative;
-	width: 160px;
-	height: 160px;
+	border: 3px solid lime;
+	width: 105px;
+	height: 140px;
 }
 
 /*UI*/
@@ -139,10 +139,10 @@ li.world{
 }
 
 .disable {
-	background-color: #f99a77;
+	background-color: #8b7493;
 	color: white;
     cursor: not-allowed;
-	border: 3px solid #872501;	
+	border: 3px solid #46005e;	
 }
 
 .button {
@@ -156,8 +156,8 @@ li.world{
 }
 
 .button:hover {
-	background-color: #872501;
-	border: 3px solid #872501;
+	background-color: #46005e;
+	border: 3px solid #46005e;
 	color: white;
 }
 
